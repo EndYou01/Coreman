@@ -1,5 +1,5 @@
-# Coreman
-Coreman Front-End 
+# Coremant
+Coremant Front-End 
 This project is still in the development phase
 
 
