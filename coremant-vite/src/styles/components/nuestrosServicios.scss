@@ -1,0 +1,15 @@
+.nuestros_servicios-container {
+  display: flex;
+  padding: 5rem;
+  padding-bottom: 2.5rem;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    font-size: $FontSize_L;
+    font-family: OpenSans-Regular;
+  }
+  p {
+    font-size: $FontSize_S;
+    font-family: OpenSans-Regular;    
+  }
+}

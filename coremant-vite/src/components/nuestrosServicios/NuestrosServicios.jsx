@@ -1,7 +1,13 @@
-import React from 'react'
+import React from "react";
+import CarouselServices from "../carousel/CarouselServices";
+
 
 export const NuestrosServicios = () => {
-  return (
-    <div>NuestrosServicios</div>
-  )
+	return (
+		<div className="nuestros_servicios-container">
+      <h1>NUESTROS SERVICIOS</h1>
+			<div>
+      </div>
+		</div>
+	);
 }
