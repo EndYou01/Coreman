@@ -1,6 +1,7 @@
 .personal-container{
     display: flex;
     padding: 5rem;
+    padding-bottom: 2.5rem;
     flex-direction: column;
     align-items: center;
     h1 {
@@ -16,7 +17,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
   h2 {
     text-align: center;
     font-size: $FontSize_L;

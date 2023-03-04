@@ -6,7 +6,7 @@ import { TfiFacebook } from "react-icons/tfi";
 export const Personal = () => {
 	return (
 		<div className="personal-container">
-			<h1>Personal</h1>
+			<h1>PERSONAL</h1>
 
 			<div className="personal_info">
 				<div className="img_personal-container">{/* IMAGEN */}</div>
