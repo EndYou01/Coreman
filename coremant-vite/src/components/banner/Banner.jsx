@@ -15,7 +15,7 @@ export const Banner = () => {
           </div>
           
           <div>
-            <h1>
+            <h1 className='banner_title'>
               When it absolutely, positively has to be readability in yor designs
             </h1>
           </div>
