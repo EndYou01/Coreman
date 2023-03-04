@@ -1,0 +1,55 @@
+.personal-container{
+    display: flex;
+    padding: 5rem;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+      font-size: $FontSize_XL;
+      font-family: OpenSans-Regular;
+    }
+    p {
+      font-size: $FontSize_S;
+      font-family: OpenSans-Regular;    
+    }
+  }
+  .personal_info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5rem;
+  h2 {
+    text-align: center;
+    font-size: $FontSize_L;
+    font-family: OpenSans-Regular;
+    font-weight: 500;
+  }
+  h3 {
+    text-align: center;
+    font-size: $FontSize_M;
+    font-family: OpenSans-Regular;
+    font-weight: 300;
+    margin-top: 0;
+  }
+}
+.img_personal-container{
+  background-color: gray;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 10rem;
+  border: solid black 0.2rem;
+}
+.social_media-container{
+  display: flex;
+  gap: 0.5rem;
+}
+.social_media_icon-container {
+  width: 1rem;
+}
+.list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
