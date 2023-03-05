@@ -26,7 +26,7 @@ export const Personal = () => {
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="https://api.whatsapp.com/send?phone=5351419534&text=Coremant,%20espere%20un%20momento%20porfavor...">
 									<FaWhatsapp style={{ color: "#25D366", fontSize: "4.2rem" }} />
 								</a>
 							</li>
@@ -59,7 +59,7 @@ export const Personal = () => {
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a href="https://api.whatsapp.com/send?phone=5354011887&text=Coremant,%20espere%20un%20momento%20porfavor...">
 									<FaWhatsapp style={{ color: "#25D366", fontSize: "4.2rem" }} />
 								</a>
 							</li>

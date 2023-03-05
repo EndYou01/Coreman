@@ -39,7 +39,10 @@ export const GastronomiaPage = () => {
 						adventurous clients and providing Creative Concepts, Branding, Graphic
 						Design, Art Direction and Digital Communication services.
 					</p>
-					<button>SEE</button>
+
+					<a href="https://www.facebook.com/profile.php?id=100090931591026&mibextid=ZbWKwL">
+						<button className="see_button">Ver</button>
+					</a>
 				</div>
 			</div>
 		</Fade>

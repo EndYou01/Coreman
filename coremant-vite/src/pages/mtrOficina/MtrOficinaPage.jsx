@@ -40,7 +40,11 @@ export const MtrOficinaPage = () => {
 						adventurous clients and providing Creative Concepts, Branding, Graphic
 						Design, Art Direction and Digital Communication services.
 					</p>
-					<button>SEE</button>
+
+					<a href="https://www.facebook.com/profile.php?id=100086768277776&mibextid=ZbWKwL">
+						<button className="see_button">Ver</button>
+					</a>
+
 				</div>
 			</div>
 		</Fade>
