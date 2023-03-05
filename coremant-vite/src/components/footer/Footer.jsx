@@ -1,4 +1,6 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+
 import { FaFacebook } from 'react-icons/fa'
 import { BsYoutube } from 'react-icons/bs'
 import {AiFillInstagram} from 'react-icons/ai'
@@ -7,11 +9,12 @@ import coremantLogo from "../../assets/coremantLogo.svg";
 export const Footer = () => {
 	
   let fecha = new Date().getFullYear()
-
+  const navigate = useNavigate()
+  
   return (
 		<footer className="footer-container">
 			<div className="img_footer-container">
-				<a href="">
+				<a href="/">
 					<img src={coremantLogo} alt="loco icon" />
 				</a>
 			</div>

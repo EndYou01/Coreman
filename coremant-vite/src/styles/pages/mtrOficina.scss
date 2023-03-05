@@ -1,100 +1,10 @@
-.header {
-  display: flex;
-  flex-direction: column;
-  height: 100vh ;
-}
-
-.header_info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 1rem 3rem;
-  button {
-    border: none ;
-    color: $whiteColor;
-    font-size: $FontSize_S;
-    border-radius: 2rem;
-    padding: 0.8rem 1rem;
-    background-color: $secundaryColor;
-  }
-}
-
 .mtrOffice_bg {
   position: absolute;
   display: flex;
   width: 100%;
-  height: 100vh ;
+  height: 70vh;
   background-image: url('/mtrOficina_bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -2;
-}
-
-.header_opacity{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: rgba($color: #000000, $alpha: .6);
-  z-index: -1;
-}
-
-.logo_page-container{
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  height: 80vh;
-  width: 100%;
-  img {
-    width: 20rem;  
-  }
-}
-
-.page_info-container {
-  display: flex;
-  padding: 5rem;
-  flex-direction: column;
-  align-items: center;
-  h1 {
-    color: $secundaryColor;
-    font-size: $FontSize_L;
-    font-family: OpenSans-Regular;
-    font-weight: 700;
-  }
-  p {
-    font-size: $FontSize_S;
-    font-family: OpenSans-Regular;    
-  }
-}
-
-.ver_catalogos-container{
-  display: flex;
-  margin: 5rem;
-  padding: 2.5rem;
-  padding-bottom: 2.5rem;
-  flex-direction: column;
-  align-items: center;
-  background-color: gainsboro;
-  border-radius: 2rem;
-  h1 {
-    font-size: $FontSize_L;
-    font-family: OpenSans-Regular;
-    font-weight: 700;
-  }
-  p {
-    text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    font-size: $FontSize_S;
-    font-family: OpenSans-Regular;    
-  }
-  button {
-    border: none ;
-    color: $whiteColor;
-    font-size: $FontSize_S;
-    border-radius: 2rem;
-    padding: 0.8rem 1rem;
-    background-color: $secundaryColor;
-  }
 }

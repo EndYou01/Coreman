@@ -1,5 +1,6 @@
 import React from "react";
 import ferrLogo from "../../assets/ferrx2.png";
+import { BackButton } from "../../components/backButton/BackButton";
 
 export const FerreteriaPage = () => {
 	return (
@@ -8,9 +9,8 @@ export const FerreteriaPage = () => {
 				<div className="header_bg"></div>
 				<div className="header_opacity"></div>
 				<div className="header_info">
-					<div >
-						<button>{"<"} Atras</button>
-					</div>
+					
+					<BackButton/>
 
 					<div className="logo_page-container">
 						<img src={ferrLogo} alt="ferreteria logo" />
