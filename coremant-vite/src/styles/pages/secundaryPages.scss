@@ -86,3 +86,14 @@
         background-color: $secundaryColor;
     }
 }
+
+@media(min-width: 920px){
+    .ver_catalogos-container {
+        max-width: 900px;
+        margin: 100px auto;
+    }
+    .page_info-container {
+        max-width: 900px;
+        margin: 100px auto;
+    }
+}

@@ -28,3 +28,10 @@
     background-color: $secundaryColor;
   }
 }
+
+@media(min-width: 920px){
+  .contrataciones-container{
+    width: 900px;
+    margin: 100px auto;
+  }
+}

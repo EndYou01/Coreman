@@ -19,6 +19,18 @@
 }
   .img_footer-container{
     width: 20rem;
+    margin: 0 auto;
   }
 
-  
+  @media(min-width: 920px){
+    .footer-container {
+      align-items: left;
+      text-align: left;
+    }
+
+    .footer_contain{
+      display: flex;
+      justify-content: space-between;
+      max-width: 1200px;
+    }
+  }
