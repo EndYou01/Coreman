@@ -1,5 +1,6 @@
 import React from "react";
 import foodLogo from "../../assets/foodx2.png";
+import { BackButton } from "../../components/backButton/BackButton";
 
 export const GastronomiaPage = () => {
 	return (
@@ -8,9 +9,7 @@ export const GastronomiaPage = () => {
 				<div className="gastronomia_bg"></div>
 				<div className="header_opacity"></div>
 				<div className="header_info">
-					<div >
-						<button>{"<"} Atras</button>
-					</div>
+					<BackButton/>
 
 					<div className="logo_page-container">
 						<img src={foodLogo} alt="gastronomia logo" />

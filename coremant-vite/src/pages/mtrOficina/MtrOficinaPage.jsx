@@ -1,5 +1,6 @@
 import React from "react";
 import mtrOficeLogo from "../../assets/oficex2.png";
+import { BackButton } from "../../components/backButton/BackButton";
 
 export const MtrOficinaPage = () => {
 	return (
@@ -8,9 +9,8 @@ export const MtrOficinaPage = () => {
 				<div className="mtrOffice_bg"></div>
 				<div className="header_opacity"></div>
 				<div className="header_info">
-					<div >
-						<button>{"<"} Atras</button>
-					</div>
+
+					<BackButton />
 
 					<div className="logo_page-container">
 						<img src={mtrOficeLogo} alt="ferreteria logo" />
