@@ -2,18 +2,29 @@
   display: flex;
   height: 100vh ;
 }
-.banner_img {
-  z-index: -5;
-}
-.banner_img-container {
+
+.banner_bg{
   position: absolute;
   display: flex;
   width: 100%;
-  height: 100vh;
-  z-index: -1;
-  overflow: hidden;
-  background-color: rgba($color: #000000, $alpha: 0.6) ;
+  height: 100vh ;
+  background-image: url('/coremantBanner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -2;
 }
+
+
+.banner_opacity{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba($color: #000000, $alpha: .6);
+  z-index: -1;
+}
+
 .banner_info{
   align-items: center;
   display: flex;
@@ -27,9 +38,17 @@
   justify-content: center;
   align-items: center;
   display: flex;
-  width: 20rem;
+  width: 40rem;
 }
 
 .logo{
   width: 100%;
+}
+
+.banner_title {
+  color: white;
+  font-size: $FontSize_L;
+  padding: 2rem;
+  text-align: center;
+  font-family: OpenSans-Regular;
 }
