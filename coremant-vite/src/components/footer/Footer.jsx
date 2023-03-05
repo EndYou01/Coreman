@@ -39,20 +39,20 @@ export const Footer = () => {
 					<h1>SIGUENOS</h1>
 					<ul className='list'>
 						<li>
-							<a href="#">
+							<a href="https://youtube.com/@coremant">
 								<BsYoutube style={{ color: "#c4302b", fontSize: "3.7rem" }} />
 							</a>
 						</li>
 
 						<li>
-							<a href="#">
+							<a href="https://www.facebook.com/profile.php?id=100086350780576&mibextid=ZbWKwL">
 								<FaFacebook style={{ color: "#3b5998", fontSize: "3.2rem" }} />
 							</a>
 						</li>
 
 
 						<li>
-							<a href="#">
+							<a href="https://www.instagram.com/invites/contact/?i=yo2ktwsyicc3&utm_content=pijssyq">
 								<AiFillInstagram style={{ color: "#C13584", fontSize: "3.7rem" }} />
 							</a>
 						</li>
