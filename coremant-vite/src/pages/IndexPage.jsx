@@ -14,7 +14,6 @@ export const IndexPage = () => {
       <Personal />
       <NuestrosServicios />
       <Contrataciones />
-      <Footer />
     </div>
   )
 }

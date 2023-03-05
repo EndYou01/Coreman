@@ -1,6 +1,4 @@
 import React from "react";
-import CarouselServices from "../carousel/CarouselServices";
-
 
 export const NuestrosServicios = () => {
 	return (
