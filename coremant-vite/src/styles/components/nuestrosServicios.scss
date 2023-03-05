@@ -83,3 +83,95 @@
     max-width: 300px;
   }
 }
+
+// .nuestros_servicios-container {
+//   padding: 5rem;
+//   padding-bottom: 2.5rem;
+
+//   h1 {
+//     font-size: $FontSize_L;
+//     font-family: OpenSans-Regular;
+//     font-weight: 700;
+//     text-align: center;
+//   }
+
+//   h3 {
+//     font-size: $FontSize_L;
+//     font-family: OpenSans-Regular;
+//     font-weight: 400;
+//   }
+
+//   p {
+//     font-size: $FontSize_S;
+//     font-family: OpenSans-Regular;
+//   }
+// }
+
+// .swiper-wrapper {
+//   max-width: 300px;
+// }
+
+// .swiper-button-prev,
+// .swiper-button-next,
+// .swiper-button-prev:after,
+// .swiper-button-next:after {
+//   color: white;
+//   background-color: gray;
+//   border-radius: 5rem;
+//   font-size: 30px;
+//   top: var(--swiper-navigation-top-offset, 45%);
+// }
+
+// .servicios_container {
+//   height: 60rem;
+//   max-width: 300px;
+
+//   background-color: white;
+//   border: 0.2rem solid;
+//   border-color: $secundaryColor;
+//   border-radius: 2rem;
+
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .servicios_container_logo {
+//   height: 150px;
+//   width: 150px;
+// }
+
+// .servicios_container_h3 {
+//   text-align: center;
+// }
+
+// .servicios_container_text {
+//   width: 90%;
+//   text-align: left;
+//   margin: 4rem auto;
+// }
+
+// .servicios_container_button {
+//   background-color: white;
+//   border: 0.2rem solid;
+//   border-color: $secundaryColor;
+//   color: $secundaryColor;
+
+//   height: 4rem;
+//   width: 10rem;
+//   border-radius: 2rem;
+// }
+
+
+// @media(min-width: 920px) {
+//   .nuestros_servicios-container {
+//     padding: 5rem;
+//     padding-bottom: 2.5rem;
+//     max-width: 62%;
+//     margin: 0 auto;
+//   }
+//   .swiper-wrapper {
+//     max-width: 300px;
+//   }
+// }
