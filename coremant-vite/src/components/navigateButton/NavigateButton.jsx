@@ -1,8 +1,6 @@
 import React from 'react'
 import { scrollToTop } from '../../functions/scrollToTop'
 import { useNavigate } from "react-router-dom";
-import { stringify } from 'query-string';
-
 
 export const NavigateButton = ({route}) => {
 
