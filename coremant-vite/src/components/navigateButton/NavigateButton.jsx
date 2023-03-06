@@ -10,8 +10,8 @@ export const NavigateButton = ({route}) => {
   return (
     <button 
         onClick={()=>{
-            navigate(`/${route}`);
             scrollToTop();
+            navigate(`/${route}`);
         }} className="servicios_container_button"
         >
             Ver Más
