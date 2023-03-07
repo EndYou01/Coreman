@@ -1,10 +1,12 @@
 .backButton {
+    position: fixed;
+    top: 1rem;
     border: none ;
     color: $whiteColor;
     font-size: $FontSize_S;
     border-radius: 2rem;
     padding: 0.8rem 1rem;
     background-color: $secundaryColor;
-    width: 100px;
-    margin-top: 50px;
+    width: 8rem;
+    margin-top: 3rem;
   }
