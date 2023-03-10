@@ -52,7 +52,7 @@ export const Personal = () => {
 					<div>
 						<ul className="list">
 							<li>
-								<a href="#">
+								<a href="https://twitter.com/CamejoGrau?t=cFEHb5w_qGy8JalHmGQG-Q&s=09">
 									<TiSocialTwitter
 										style={{ color: "#00acee", fontSize: "5rem" }}
 									/>

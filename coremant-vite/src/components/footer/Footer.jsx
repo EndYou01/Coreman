@@ -4,6 +4,9 @@ import { useNavigate } from "react-router-dom";
 import { FaFacebook } from 'react-icons/fa'
 import { BsYoutube } from 'react-icons/bs'
 import { AiFillInstagram } from 'react-icons/ai'
+import { HiOutlineMail } from "react-icons/hi";
+import { HiPhone } from "react-icons/hi";
+
 import coremantLogo from "../../assets/coremantLogo.svg";
 import { scrollToTop } from "../../functions/scrollToTop";
 
@@ -29,10 +32,40 @@ export const Footer = () => {
 
 				<div>
 					<h1>CONTACTANOS</h1>
-					<p>
-						sample text. Click to select the text box.click again or blab lablab
-						jajaja eran textos de ejemplo
-					</p>
+					<ul className="footer_list">
+						<li>
+							<HiOutlineMail className='footer_icon' />
+							<a 
+								href="mailto:empcoremant@gmail.com"
+								target="_blank"
+                				rel="noreferrer"
+								className="footer_text"
+							>
+								empcoremant@gmail.com
+							</a>
+						</li>
+
+						<li>
+							<HiPhone className='footer_icon' />
+							<span 
+                				rel="noreferrer"
+								className="footer_text"
+							>
+								+53 56269470
+							</span>
+						</li>
+						
+						<li>
+							<HiPhone className='footer_icon' />
+							<span 
+                				rel="noreferrer"
+								className="footer_text"
+							>
+								+53 56403675
+							</span>
+						</li>
+						
+					</ul>
 				</div>
 
 				<div>

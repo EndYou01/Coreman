@@ -9,7 +9,7 @@
     font-size: $FontSize_L;
     font-family: OpenSans-Regular;
     font-weight: 700;
-    color: $whiteColor;
+    color: $secundaryColor;
   }
   p {
     font-size: $FontSize_S;
@@ -20,6 +20,28 @@
   .img_footer-container{
     width: 20rem;
     margin: 0 auto;
+  }
+
+  .footer_list{
+    list-style-type: none;
+    padding-left: 5px;
+  }
+  .footer_list li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .footer_icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    color: white;
+  }
+
+  .footer_text{
+    font-size: $FontSize_M;
+    color: white;
+    text-decoration: none;
   }
 
   @media(min-width: 920px){

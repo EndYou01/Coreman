@@ -32,7 +32,7 @@ export const NuestrosServicios = () => {
 
 						<h3 className="servicios_container_h3">Ferretería</h3>
 
-						<p className="servicios_container_text">loremAute excepteur culpa cupidatat aliquip incididunt veniam fugiat non.Nostrud do proident ea fugiat do. Consectetur enim nulla eu velit laborum veniam in minim consequat do id cupidatat aliquip.</p>
+						<p className="servicios_container_text">Venta al por mayor y por menor de útiles para el bricolaje, la construcción y necesidades del hogar.</p>
 
 						<NavigateButton route='ferreteria'/>
 
@@ -45,7 +45,7 @@ export const NuestrosServicios = () => {
 
 						<h3 className="servicios_container_h3">Gastronomía</h3>
 
-						<p className="servicios_container_text">loremAute excepteur culpa cupidatat aliquip incididunt veniam fugiat non.Nostrud do proident ea fugiat do. Consectetur enim nulla eu velit laborum veniam in minim consequat do id cupidatat aliquip.</p>
+						<p className="servicios_container_text">Principales servicios que presta nuestro Restaurant.</p>
 
 							<NavigateButton route='gastronomia'/>
 					</div>
@@ -57,7 +57,7 @@ export const NuestrosServicios = () => {
 
 						<h3 className="servicios_container_h3">Materiales de Oficina</h3>
 
-						<p className="servicios_container_text">loremAute excepteur culpa cupidatat aliquip incididunt veniam fugiat non.Nostrud do proident ea fugiat do. Consectetur enim nulla eu velit laborum veniam in minim consequat do id cupidatat aliquip.</p>
+						<p className="servicios_container_text">Venta al por mayor y por menor de artículos, suministros de oficina y útiles escolares.</p>
 
 							<NavigateButton route='mtroficina'/>
 					</div>

@@ -26,19 +26,14 @@ export const MtrOficinaPage = () => {
 					<div>
 						<p>
 							{" "}
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-							facilis quia nulla aliquid deserunt laboriosam aspernatur suscipit
-							eos molestiae reiciendis! Quas deserunt quis animi. Est pariatur
-							unde repellendus temporibus deserunt!
+							Venta al por mayor y por menor de artículos, suministros de oficina y útiles escolares.
 						</p>
 					</div>
 				</div>
 				<div className="ver_catalogos-container">
 					<h1>VER CATALOGOS</h1>
 					<p>
-						We're a small creative design studio based in New York, working with
-						adventurous clients and providing Creative Concepts, Branding, Graphic
-						Design, Art Direction and Digital Communication services.
+						Aquí mantenemos actualizados nuestros catálogos en la plataforma Facebook en el grupo "Coremant - Materiales de Oficina"
 					</p>
 
 					<a href="https://www.facebook.com/profile.php?id=100086768277776&mibextid=ZbWKwL">
