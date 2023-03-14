@@ -7,7 +7,7 @@ import { AiFillInstagram } from 'react-icons/ai'
 import { HiOutlineMail } from "react-icons/hi";
 import { HiPhone } from "react-icons/hi";
 
-import coremantLogo from "../../assets/coremantLogo.svg";
+import coremantLogo from "../../assets/coremantLogo.png";
 import { scrollToTop } from "../../functions/scrollToTop";
 
 export const Footer = () => {
@@ -23,6 +23,7 @@ export const Footer = () => {
 				<div className="img_footer-container">
 					<img
 						src={coremantLogo}
+						className='logo_footer'
 						alt="loco icon"
 						onClick={() => {
 							navigate('/')

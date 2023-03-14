@@ -1,4 +1,4 @@
-import coremantLogo from "../../assets/coremantLogo.svg";
+import coremantLogo from "../../assets/coremantLogo.png";
 import 'animate.css';
 
 export const Banner = () => {
