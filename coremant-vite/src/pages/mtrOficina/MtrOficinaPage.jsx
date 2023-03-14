@@ -1,5 +1,5 @@
 import React from "react";
-import mtrOficeLogo from "../../assets/oficex2.png";
+import mtrOficeLogo from "../../assets/oficex2.jpg";
 import { BackButton } from "../../components/backButton/BackButton";
 import { Fade } from "react-awesome-reveal";
 

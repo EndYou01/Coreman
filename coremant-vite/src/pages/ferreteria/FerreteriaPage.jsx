@@ -1,5 +1,5 @@
 import React from "react";
-import ferrLogo from "../../assets/ferrx2.png";
+import ferrLogo from "../../assets/ferrx2.jpg";
 import { BackButton } from "../../components/backButton/BackButton";
 import { Fade } from "react-awesome-reveal";
 

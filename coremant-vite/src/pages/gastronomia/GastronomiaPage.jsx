@@ -1,5 +1,5 @@
 import React from "react";
-import foodLogo from "../../assets/foodx2.png";
+import foodLogo from "../../assets/foodx2.jpg";
 import { BackButton } from "../../components/backButton/BackButton";
 import { Fade } from "react-awesome-reveal";
 

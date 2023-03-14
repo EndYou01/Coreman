@@ -6,9 +6,9 @@ import { Navigation } from 'swiper';
 import 'swiper/scss';
 import 'swiper/scss/navigation';
 
-import ferr from "../../assets/ferrx2.png"
-import food from "../../assets/foodx2.png"
-import ofice from "../../assets/oficex2.png"
+import ferr from "../../assets/ferrx2.jpg"
+import food from "../../assets/foodx2.jpg"
+import ofice from "../../assets/oficex2.jpg"
 import { NavigateButton } from "../navigateButton/NavigateButton";
 
 export const NuestrosServicios = () => {
